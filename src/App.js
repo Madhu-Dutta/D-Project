@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 
 
 //Import the router files
+import Searchbar from "./components/searchBar";
 import Navbar from "./components/navbar";
 
 import Home from "./components/home";
@@ -25,6 +26,7 @@ function App() {
     <BrowserRouter>
 
       {/* <div className="container"> */}
+      <Searchbar />
 
       <Navbar />
 

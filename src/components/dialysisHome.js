@@ -6,14 +6,15 @@ import image from '../style/images/atHome.JPG';
 const DialysisHome = (props) => {
 
   return (
+    
     <div className="container" >
 
-        {/* Header */}
-        <div xs="12" className="header" style={{ backgroundColor: "#265725" }}>
+            {/* Header */}
+            <div className="header" style={{ backgroundColor: "#265725" }}> 
             <Row>
-                <div id="text" xs="6" className="col-sm" style={{ width: "100%" }} >
+                <div id="wrapper" className="col-md-6 clearfix">
 
-                    <h1 >At Home Dialysis.</h1>
+                    <h1>At Home Dialysis.</h1>
                     <div className="text">
                         <p>
                             Dialysis is a resource-hungry medical therapy in
@@ -27,14 +28,12 @@ const DialysisHome = (props) => {
                         </p>
                     </div>
                 </div>
-                <div xs="6" class="col-sm">
-                    <img class="img-fluid" src={image} alt="Green Dialysis" style={{ margin: '0%', float: "right", width: "100%", height: "100%" }} />
+                <div className="col-md-6 clearfix">
+                    <img className="img-fluid" src={image} alt="At Home" style={{ float: "right", width: "100%", height: "100%" }} />
                 </div>
             </Row>
         </div>
     </div>
-
-
 
   )
   

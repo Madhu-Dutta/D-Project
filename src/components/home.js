@@ -6,14 +6,14 @@ import image from '../style/images/homeImage.JPG';
 const Home = (props) => {
 
     return (
-    <div className="container" >
+        <div className="container" >
 
             {/* Header */}
-        <div xs="12" className="header" style={{ backgroundColor: "#265725" }}>
+            <div className="header" style={{ backgroundColor: "#265725" }}> 
             <Row>
-                <div id="text" xs="6" className="col-sm" style={{ width: "100%" }} >
+                <div id="wrapper" className="col-md-6">
 
-                    <h1 >Green Dialysis.</h1>
+                    <h1>Green Dialysis.</h1>
                     <div className="text">
                         <p>
                             Dialysis is a resource-hungry medical therapy in
@@ -27,8 +27,8 @@ const Home = (props) => {
                         </p>
                     </div>
                 </div>
-                <div xs="6" class="col-sm">
-                    <img class="img-fluid" src={image} alt="Green Dialysis" style={{ margin: '0%', float: "right", width: "100%", height: "100%" }} />
+                <div className="col-md-6">
+                    <img className="img-fluid" src={image} alt="GreenDialysis" style={{ float: "right", width: "100%", height: "100%" }} />
                 </div>
             </Row>
         </div>

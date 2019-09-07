@@ -12,9 +12,8 @@ import {
   DropdownMenu,
   DropdownItem
 } from 'reactstrap';
+import '../style/navbar.css';
 import Logo from '../style/images/logo.JPG';
-import Searchbar from "./searchBar";
-
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -33,16 +32,21 @@ export default class Example extends React.Component {
   render() {
     return (
       <div className="container">
-          <Searchbar /><br /><br />
-          <Navbar color="light" light expand="md" >
+          
+          <Navbar color="light" light expand="md">
+            
             <NavbarBrand href="/">
-              <img className="logo" src={Logo} alt="logo" style={{ margin: '0%', float: "left", width: "50%" }} />
-              <a href="/" style={{margin: '0%', float: "right", width: "50%", height: "1%" }}>
+              <img className="logo" src={Logo} alt="logo" style={{ margin: '0%', float: "left", width: "60%"}} />
+              <span>
+              <a href="/" style={{margin: '0%', float: "right", width: "40%", height: "1%" , fontSize: '70%', padding: '10% 4%', fontWeight: 'bolder', color: '#6A503E', textDecoration: 'none'}}>
                 The Green<br />
                 Nephrology<br />
                 Action Team.<br />
               </a>
+              </span>
             </NavbarBrand>
+           
+
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
