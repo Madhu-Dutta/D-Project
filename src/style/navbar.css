@@ -1,7 +1,14 @@
 .navbar-light .navbar-nav .nav-link, .nav-link:focus {
     color: #593B29;
-    font-weight: bold
+    font-weight: bold;
+    padding: 14px;
 }
 .navbar-light .navbar-nav , .navbar-light .navbar-nav .nav-link:hover{
     color: green;    
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.nav-link:{
+    padding-left: 14%;
 }

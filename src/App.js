@@ -20,12 +20,14 @@ import ResourcesResearch from "./components/resourcesResearch";
 import ResourcesBlog from "./components/resourcesBlog";
 
 import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 function App() {
   return (
     <BrowserRouter>
 
-      {/* <div className="container"> */}
+      <div className="container">
+        
       <Searchbar />
 
       <Navbar />
@@ -45,7 +47,9 @@ function App() {
 
       <Route path="/contact" exact component={Contact} />
 
-      {/* </div> */}
+      <Footer />
+
+      </div>
 
     </BrowserRouter>
 

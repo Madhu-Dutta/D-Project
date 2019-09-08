@@ -14,6 +14,8 @@ import {
 } from 'reactstrap';
 import '../style/navbar.css';
 import Logo from '../style/images/logo.JPG';
+// import Searchbar from "../components/searchBar";
+
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -31,9 +33,8 @@ export default class Example extends React.Component {
   }
   render() {
     return (
-      <div className="container">
-          
-          <Navbar color="light" light expand="md">
+               
+          <Navbar color="light" light expand="lg">
             
             <NavbarBrand href="/">
               <img className="logo" src={Logo} alt="logo" style={{ margin: '0%', float: "left", width: "60%"}} />
@@ -42,15 +43,14 @@ export default class Example extends React.Component {
                 The Green<br />
                 Nephrology<br />
                 Action Team.<br />
-              </a>
+              </a>              
               </span>
-            </NavbarBrand>
-           
+            </NavbarBrand>           
 
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
-
+                
                 <NavItem>
                   <NavLink href="/aboutUs/">About us</NavLink>
                 </NavItem>
@@ -71,7 +71,7 @@ export default class Example extends React.Component {
 
                 <UncontrolledDropdown nav inNavbar className="goGreen">
                   <DropdownToggle nav>
-                    Going Green
+                    Tools
                 </DropdownToggle>
                   <DropdownMenu right>
                     <DropdownItem>
@@ -104,7 +104,7 @@ export default class Example extends React.Component {
               </Nav>
             </Collapse>
           </Navbar>
-        </div>
+       
     );
   }
 }

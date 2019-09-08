@@ -1,0 +1,85 @@
+.container-wrapper{
+    margin-top: 4%;
+    display: block;
+    color: white;    
+  }
+  h1 {
+    padding-top: 4%;
+    text-shadow: 3px 1px 0px #1A401A;
+    font-size: 320%;
+    text-align: center;
+  }
+  .heading{
+    padding: 8%;
+  }
+  #contactText{
+    padding-left : 3%;
+    padding-right : 3%;
+  }
+  .address{
+    width: 43.88%;
+    float: right;    
+  }   
+  .img-fluid{
+    width: 40%;
+    height: 50%;
+  }
+  body{
+      line-height: 1.2;
+  }
+.text{
+  padding: 2% 15%;
+  font-size: 102%;
+  text-shadow: 3px 1px 0px #1A401A;
+}
+.clearfix{
+  overflow:auto;
+}
+.form-group{
+  padding-top: 2%;
+  padding-left:  10%;
+}
+.form-control{
+    padding: 0;
+    width: 90%;
+    height: 10%;
+}
+textarea{
+    padding: 0;
+    margin:0;
+}
+.submitBtn{
+  margin-bottom: 5%;
+}
+i{
+    padding-top: 6%;
+    float: center;
+    margin-left: 8%;
+}
+h5{
+  font-weight: bold;
+  padding-bottom: 5%;
+}
+h2{
+  font-weight: bold;
+  padding-top: 4%;
+}
+.mid-grid{
+  text-align: center;
+  color: black;
+}
+#locInfo{
+  padding-bottom: 10%;
+}
+.contactInfo{
+  text-align:center;
+  margin-top: 4%;
+  color: black;
+}
+span{
+  text-align: left;
+  font-size: 80%;
+}
+.icon{
+  padding-right: 6%;
+}

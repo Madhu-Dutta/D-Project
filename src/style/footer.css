@@ -1,0 +1,11 @@
+.site-footer {
+    background-color: green;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+ul.social-links-list li {
+        
+    margin-right: 25px;
+    display: inline-block;
+}
