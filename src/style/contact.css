@@ -12,9 +12,15 @@
   .heading{
     padding: 8%;
   }
+  .mid-grid{
+    background-color: #EFEFEF;
+  }
   #contactText{
     padding-left : 3%;
-    padding-right : 3%;
+    padding-right : 3%;    
+  }
+  .contactLoc{
+    font-size: 90%;
   }
   .address{
     width: 43.88%;
@@ -52,9 +58,9 @@ textarea{
   margin-bottom: 5%;
 }
 i{
+    padding-left: 4%;
     padding-top: 6%;
     float: center;
-    margin-left: 8%;
 }
 h5{
   font-weight: bold;
@@ -62,11 +68,11 @@ h5{
 }
 h2{
   font-weight: bold;
-  padding-top: 4%;
 }
 .mid-grid{
   text-align: center;
   color: black;
+  padding: 5%;
 }
 #locInfo{
   padding-bottom: 10%;
@@ -75,6 +81,9 @@ h2{
   text-align:center;
   margin-top: 4%;
   color: black;
+}
+.card-body{
+  padding: 24% 4%;
 }
 span{
   text-align: left;

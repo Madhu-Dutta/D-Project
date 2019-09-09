@@ -1,11 +1,36 @@
 .site-footer {
-    background-color: green;
+    background-color: #8EE080;
     margin-top: 20px;
     padding: 10px;
     text-align: center;
 }
-ul.social-links-list li {
-        
+ul.social-links-list li {        
     margin-right: 25px;
     display: inline-block;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+section .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#footer-grids{
+    text-align: center;
+    padding-left: 6%;
+}
+.img-footlink{
+    width: 100%;
+    height: 100%;
+  }
+.mid-footer{
+    color: white;
 }

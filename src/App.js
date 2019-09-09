@@ -4,7 +4,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 
 
 //Import the router files
-import Searchbar from "./components/searchBar";
+// import Searchbar from "./components/searchBar";
 import Navbar from "./components/navbar";
 
 import Home from "./components/home";
@@ -27,27 +27,27 @@ function App() {
     <BrowserRouter>
 
       <div className="container">
-        
-      <Searchbar />
 
-      <Navbar />
+        {/* <Searchbar /> */}
 
-      <Route exact path="/" component={Home} />
+        <Navbar />
 
-      <Route path="/aboutUs" exact component={Aboutus} />
+        <Route exact path="/" component={Home} />
 
-      <Route path="/dialysisCentre" exact component={DialysisCentre} />
-      <Route path="/dialysisHome" exact component={DialysisHome} />
+        <Route path="/aboutUs" exact component={Aboutus} />
 
-      <Route path="/greenTools" exact component={GreenTools} />
-      <Route path="/greenroadMap" exact component={GreenroadMap} />
+        <Route path="/dialysisCentre" exact component={DialysisCentre} />
+        <Route path="/dialysisHome" exact component={DialysisHome} />
 
-      <Route path="/resourcesResearch" exact component={ResourcesResearch} />
-      <Route path="/resourcesBlog" exact component={ResourcesBlog} />
+        <Route path="/greenTools" exact component={GreenTools} />
+        <Route path="/greenroadMap" exact component={GreenroadMap} />
 
-      <Route path="/contact" exact component={Contact} />
+        <Route path="/resourcesResearch" exact component={ResourcesResearch} />
+        <Route path="/resourcesBlog" exact component={ResourcesBlog} />
 
-      <Footer />
+        <Route path="/contact" exact component={Contact} />
+
+        <Footer />
 
       </div>
 
