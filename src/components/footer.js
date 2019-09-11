@@ -106,7 +106,6 @@ const Footer = () => {
                                     </ul>
                                     <Button color="success" size="sm" className="joinBlog">Join our Blog</Button>
                                 </div>
-
                             </div>
                         </section>
 

@@ -1,13 +1,24 @@
+body{
+  line-height: 1.2;
+}
 .container-wrapper{
     margin-top: 4%;
     display: block;
     color: white;    
   }
-  h1 {
+  .contactTitle , h1{
     padding-top: 4%;
     text-shadow: 3px 1px 0px #1A401A;
     font-size: 320%;
     text-align: center;
+  }
+  .contactText{
+    font-size: 82%;
+    padding-left: 14%;
+  }
+  .contactAdd{
+    padding-left: 9%;
+    font-size: 82%;
   }
   .heading{
     padding: 8%;
@@ -27,12 +38,14 @@
     float: right;    
   }   
   .img-fluid{
+    padding-left: 10%;
     width: 40%;
     height: 50%;
   }
-  body{
-      line-height: 1.2;
-  }
+  .social-links-list{
+    padding-left: 10%;
+
+  }  
 .text{
   padding: 2% 15%;
   font-size: 102%;
@@ -47,7 +60,8 @@
 }
 .form-control{
     padding: 0;
-    width: 90%;
+    margin-left: 4%;
+    width: 96%;
     height: 10%;
 }
 textarea{

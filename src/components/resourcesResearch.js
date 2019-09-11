@@ -1,5 +1,5 @@
 import React from "react";
-import '../style/baseComponent.css';
+import '../style/research.css';
 import image from '../style/images/research.JPG';
 
 const ResourcesResearch = (props) => {
@@ -10,7 +10,7 @@ const ResourcesResearch = (props) => {
             <div id="header" className="card" >
                 <div className="row no-gutters">
                     <div className="col-md-6" style={{ backgroundColor: "#265725" }}>
-                        <h1>Research.</h1>
+                        <h1 className="researchTitle">Research.</h1>
                         <div id="wrapper" className='w-100'>
 
                             <p>Dialysis is a resource-hungry medical therapy in
