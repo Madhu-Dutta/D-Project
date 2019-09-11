@@ -88,11 +88,11 @@ export default class Contact extends Component {
                     </div>
                 </div>
 
-                <div className="mid-grid">
+                <div className="container py-5 mid-grid">
                     <h2>Visit some of our friends.</h2>
                     <div className="card-deck">
 
-                        <div className="card contactInfo">
+                        <div className="card card-columns">
                             <div className="card-body text-center">
                                 <h5>Green Nephrology</h5>
                                 <p className="card-text contactLoc"> Praharan,Melbourne,VIC </p>
@@ -105,7 +105,7 @@ export default class Contact extends Component {
 
                             </div>
                         </div>
-                        <div className="card contactInfo">
+                        <div className="card card-columns">
                             <div className="card-body text-center">
                                 <h5>Green Nephrology</h5>
                                 <p className="card-text contactLoc"> Praharan,Melbourne,VIC </p>
@@ -118,7 +118,7 @@ export default class Contact extends Component {
 
                             </div>
                         </div>
-                        <div className="card contactInfo">
+                        <div className="card card-columns">
                             <div className="card-body text-center">
                                 <h5>Green Nephrology</h5>
                                 <p className="card-text contactLoc"> Praharan,Melbourne,VIC </p>
@@ -131,7 +131,7 @@ export default class Contact extends Component {
 
                             </div>
                         </div>
-                        <div className="card contactInfo">
+                        <div className="card card-columns">
                             <div className="card-body text-center">
                                 <h5>Green Nephrology</h5>
                                 <p className="card-text contactLoc"> Praharan,Melbourne,VIC </p>
@@ -144,7 +144,6 @@ export default class Contact extends Component {
 
                             </div>
                         </div>
-
 
                     </div>
                 </div>

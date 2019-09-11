@@ -34,3 +34,21 @@ section .section-title {
 .mid-footer{
     color: white;
 }
+.joinBlog a{
+  display: flex;
+}
+.footLinks{
+  color: #8EE080;
+}
+.footLinks:hover{
+  color: white;
+}
+li a, a:hover{
+  text-decoration: none;
+}
+a{
+  color: white;
+} 
+a:hover{
+  color: #265725;
+}
