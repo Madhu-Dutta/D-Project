@@ -37,7 +37,7 @@ const Home = (props) => {
                 <div className="card-deck">
                     <div className="card card-columns">
                         <div className="card-body text-center">
-                            <img src={plogo} alt="About" style={{ width: "10%", height: "10%" }} />
+                            <img src={plogo} alt="About" style={{ width: "26%", height: "26%" }} />
 
                             <h2>How <span style={{ color: "#3C8117" }}>green</span> are we?</h2>
                             <p className="card-text">
@@ -56,7 +56,7 @@ const Home = (props) => {
                 <div className="card-deck">
                     <div className="card card-columns">
                         <div className="card-body text-center">
-                            <img src={rlogo} alt="About" style={{ width: "10%", height: "10%" }} />
+                            <img src={rlogo} alt="About" style={{ width: "26%", height: "26%" }} />
 
                             <h2>How to get started?</h2>
                             <p className="card-text">

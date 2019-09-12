@@ -56,7 +56,7 @@ const Aboutus = (props) => {
                 <div className="card-deck">
                     <div className="card card-columns">
                         <div className="card-body text-center">
-                            <img src={logo2} alt="About" style={{ width: "20%", height: "20%" }} />
+                            <img src={logo2} alt="About" style={{ width: "30%", height: "30%" }} />
 
                             <h2>Our History.</h2>
                             <p className="card-text">
