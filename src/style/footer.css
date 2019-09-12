@@ -34,6 +34,13 @@ section .section-title {
 .mid-footer{
     color: white;
 }
+.joinBlog{ 
+background-color: #42210B ;
+padding: 4%;
+color: white;
+border: 2px solid #42210B;
+border-radius: 20%;
+}
 .joinBlog a{
   display: flex;
 }

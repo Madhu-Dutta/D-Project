@@ -1,6 +1,5 @@
 import React from 'react';
 import '../style/footer.css';
-import { Button } from 'reactstrap';
 import image1 from '../style/images/footerLinks1.JPG';
 import image2 from '../style/images/footerLinks2.JPG';
 import image3 from '../style/images/footerLinks3.JPG';
@@ -104,7 +103,7 @@ const Footer = () => {
                                             </a>
                                         </div>
                                     </ul>
-                                    <Button color="success" size="sm" className="joinBlog">Join our Blog</Button>
+                                    <button color="success" size="sm" className="joinBlog">Join our Blog</button>
                                 </div>
                             </div>
                         </section>

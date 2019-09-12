@@ -11,7 +11,7 @@ export default class Contact extends Component {
                     <div className="row no-gutters">
 
                         <div className="col-md-6" style={{ backgroundColor: "#265725" }}>
-                            <h1 className="contactTitle">Contact Us.</h1>
+                            <h1>Contact Us.</h1>
                             <div className="w-100 text">
                                 <p className="contactText">We love a feedback! Send us a message today and we'll get back to you within 2 business days.</p>
 

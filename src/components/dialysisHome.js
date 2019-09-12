@@ -1,5 +1,5 @@
 import React from "react";
-import '../style/baseComponent.css';
+import '../style/dialysisHome.css';
 import image from '../style/images/atHome.JPG';
 
 const DialysisHome = (props) => {
@@ -11,7 +11,7 @@ const DialysisHome = (props) => {
             <div id="header" className="card" >
                 <div className="row no-gutters">
                     <div className="col-md-6" style={{ backgroundColor: "#265725" }}>
-                        <h1>At Home Dialysis.</h1>
+                        <h1 className="homeTitle">At Home Dialysis.</h1>
                         <div id="wrapper" className='w-100'>
 
                             <p>Dialysis is a resource-hungry medical therapy in
