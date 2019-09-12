@@ -1,6 +1,12 @@
 import React from "react";
 import '../style/dialysisCentre.css';
 import image from '../style/images/inCentre.JPG';
+import logo1 from '../style/images/homeLogo.JPG';
+import logo2 from '../style/images/transportLogo.JPG';
+import logo3 from '../style/images/disasterLogo.JPG';
+import logo4 from '../style/images/bulbLogo.JPG';
+import logo5 from '../style/images/wasteLogo.JPG';
+import logo6 from '../style/images/waterLogo.JPG';
 
 const DialysisCentre = (props) => {
 
@@ -30,7 +36,51 @@ const DialysisCentre = (props) => {
                 </div>
             </div>
 
+            <div className="midlayer py-5 mid-grid">
+                <div className="midtext">The In-Centre HD resource conservation and management measures described in this section offers specific green projects that can help us
+                     reduce the mountains and rivers of waste we currently generate.
+                </div>
+            </div>
+
+            <div className="midlayer mid-grid">
+
+            <div className="row">
+                <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
+                    <img src={logo1} alt="Building" />
+                   
+                </div>
+                <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
+                    <img src={logo2} alt="Transport" />
+                   
+                </div>
+                <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
+                    <img src={logo3} alt="Disaster" />
+                    
+                </div>
+            </div>
+
+            <div className="row">
+                <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
+                    <img src={logo4} alt="Energy" />
+                    
+                </div>
+                <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
+                    <img src={logo5} alt="Waste" />
+                   
+                </div>
+                <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
+                    <img src={logo6} alt="Water" />
+                   
+                </div>
+            </div>
+
+
         </div>
+
+
+        </div>
+
+
 
     )
 }

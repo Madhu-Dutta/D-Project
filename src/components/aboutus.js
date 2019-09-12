@@ -49,13 +49,36 @@ const Aboutus = (props) => {
 
                             <h2>What do we deliver?</h2>
                             <p className="card-text">
-                                Internaltional experience has already demonstrated broad benefits of environmental initiatives within the nephrology sector.
+                                International experience has already demonstrated broad benefits of environmental initiatives within the nephrology sector.
                             </p>
 
                             <p className="card-text">
-                                In the UK, the Green Nephrology (GN) Network was established (2009) by the National Health Service Sustainable Healthcare Programme. It has led to both attitudianal and practice change.
+                                In the UK, the Green Nephrology (GN) Network was established (2009) by the National Health Service Sustainable Healthcare Programme. It has led to both attitudinal and practice change.
                             </p>
                         </div>
+                        <div className="row lists">
+                            <div className="col-lg-6 thumbnail lists" style={{ padding: "3%" }}>
+                                <ul>
+                                    <h6>The GN Network</h6>
+                                    <li>470 milion litres of water</li>
+                                    <li>470 milion litres of water</li>
+                                    <li>470 milion litres of water</li>
+                                    <li>470 milion litres of water</li>
+
+                                </ul>
+                            </div>
+                            <div className="col-lg-6 thumbnail lists" style={{ padding: "3%" }}>
+                                <ul>
+                                    <h6>The GN Network</h6>
+                                    <li>470 milion litres of water</li>
+                                    <li>470 milion litres of water</li>
+                                    <li>470 milion litres of water</li>
+                                    <li>470 milion litres of water</li>
+
+                                </ul>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

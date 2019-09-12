@@ -15,3 +15,9 @@ h1 {
 .headerPara{
   padding-left: 9%;
 }
+h6{
+  font-weight: bolder;
+}
+.lists{
+  background-color: #EFEFEF;
+}
