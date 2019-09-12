@@ -21,7 +21,7 @@ const Footer = () => {
             <div className="topFooter" style={{ backgroundColor: "#265725" }}>
                 <div id="sticky-footer" className="py-4"></div>
             </div>
-            <div className="midFooter" style={{ backgroundColor: "#8EE080"}}>
+            <div className="midFooter" style={{ backgroundColor: "#8EE080" }}>
                 <div id="sticky-footer">
                     <div className="container text-center">
                         <div className="container text-center">
@@ -29,7 +29,7 @@ const Footer = () => {
                             <section id="footer-grids">
                                 <div className="row text-center text-xs-center">
 
-                                    <div className="col-xs-12 col-md-2" style={{paddingTop: "3%", paddingBottom: "3%"}}>
+                                    <div className="col-xs-12 col-md-2" style={{ paddingTop: "3%", paddingBottom: "3%" }}>
                                         <a href="/" >Important Link</a>
                                     </div>
                                     <div className="col-xs-12 col-md-2">
@@ -44,10 +44,10 @@ const Footer = () => {
                                             </a>
                                         </span>
                                     </div>
-                                    <div className="col-xs-12 col-md-2" style={{paddingTop: "3%", paddingBottom: "3%"}}>
+                                    <div className="col-xs-12 col-md-2" style={{ paddingTop: "3%", paddingBottom: "3%" }}>
                                         <a href="/">Help</a>
                                     </div>
-                                    <div className="col-xs-12 col-md-2" style={{paddingTop: "3%", paddingBottom: "3%"}}>
+                                    <div className="col-xs-12 col-md-2" style={{ paddingTop: "3%", paddingBottom: "3%" }}>
                                         <a href="/">Stay Connected</a>
                                     </div>
                                 </div>

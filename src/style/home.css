@@ -1,3 +1,7 @@
 .mid-wrapper{
     color: black;
 }
+.card-body{
+    background-color: #EFEFEF;
+    padding: 4% 18%;
+}

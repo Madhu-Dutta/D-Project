@@ -1,7 +1,8 @@
 import React from "react";
 import '../style/home.css';
 import image from '../style/images/homeImage.JPG';
-import logo from '../style/images/rocketLogoHome.JPG';
+import plogo from '../style/images/plugLogoHome.JPG';
+import rlogo from '../style/images/rocketLogoHome.JPG';
 
 const Home = (props) => {
 
@@ -36,18 +37,16 @@ const Home = (props) => {
                 <div className="card-deck">
                     <div className="card card-columns">
                         <div className="card-body text-center">
-                        <img src={logo} alt="About" style={{ float: "right", width: "10%", height: "10%" }} />
+                            <img src={plogo} alt="About" style={{ width: "10%", height: "10%" }} />
+
                             <h2>How <span style={{ color: "#3C8117" }}>green</span> are we?</h2>
                             <p className="card-text">
-                                Dialysis is a resource-hungry medical therapy in
-                                particular, mountains of plastic waste , lakes of water and
-                            Magawatts of wasted energy are central to its delivery.
+                                In an effort to measure if and how well environmental sustainability has become embedded in day-to-day activities of dialysis, the Department of Health and Human Services(Victoria) conducted a Green Dialysis Survey in late 2016.
+                                The results were published recently in Nephrology, the Official Journal of the Australian and New Zealand Society of Nephrology and of the Asia Pacific Society of Nephrology.
                             </p>
 
                             <p className="card-text">
-                                Dialysis is a resource-hungry medical therapy in
-                                particular, mountains of plastic waste , lakes of water and
-                            Magawatts of wasted energy are central to its delivery.
+                                The primary message of details from the survey is that while many dialysis services have already introduced some (or several) of the principles suggested in this website, many perhaps 89 per cent of the units-have not proceeded with specific  green projects that can help us reduce the mountains and rivers of waste we currently generate.
                             </p>
                         </div>
                     </div>
@@ -57,17 +56,16 @@ const Home = (props) => {
                 <div className="card-deck">
                     <div className="card card-columns">
                         <div className="card-body text-center">
+                            <img src={rlogo} alt="About" style={{ width: "10%", height: "10%" }} />
+
                             <h2>How to get started?</h2>
                             <p className="card-text">
-                                Dialysis is a resource-hungry medical therapy in
-                                particular, mountains of plastic waste , lakes of water and
-                            Magawatts of wasted energy are central to its delivery.
+                                In an effort to measure if and how well environmental sustainability has become embedded in day-to-day activities of dialysis, the Department of Health and Human Services(Victoria) conducted a Green Dialysis Survey in late 2016.
+                                The results were published recently in Nephrology, the Official Journal of the Australian and New Zealand Society of Nephrology and of the Asia Pacific Society of Nephrology.
                             </p>
 
                             <p className="card-text">
-                                Dialysis is a resource-hungry medical therapy in
-                                particular, mountains of plastic waste , lakes of water and
-                            Magawatts of wasted energy are central to its delivery.
+                                The primary message of details from the survey is that while many dialysis services have already introduced some (or several) of the principles suggested in this website, many perhaps 89 per cent of the units-have not proceeded with specific  green projects that can help us reduce the mountains and rivers of waste we currently generate.
                             </p>
                         </div>
                     </div>
