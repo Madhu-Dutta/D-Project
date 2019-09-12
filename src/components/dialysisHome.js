@@ -46,7 +46,7 @@ const DialysisHome = (props) => {
                                     <div>Hi</div>
                                 </div>
                                 <div className="col-lg-6 thumbnail lists w-100 thumbnail" style={{ padding: "3%" }}>
-                                    <div><img src={map} alt="AtHomeDialysis" style={{ float: "right" }} /></div>
+                                    <div><img className="w-100" src={map} alt="AtHomeDialysis" style={{ float: "right" }} /></div>
                                 </div>
                             </div>
                         </div>
