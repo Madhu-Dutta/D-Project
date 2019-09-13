@@ -34,43 +34,39 @@ const Home = (props) => {
 
 
             <div className="midlayer py-5 mid-grid">
-                <div className="card-deck">
-                    <div className="card card-columns">
-                        <div className="card-body text-center thumbnail">
-                            <img src={plogo} alt="homeLogo" />
 
-                            <h2>How <span style={{ color: "#3C8117" }}>green</span> are we?</h2>
-                            <p className="card-text">
-                                In an effort to measure if and how well environmental sustainability has become embedded in day-to-day activities of dialysis, the Department of Health and Human Services(Victoria) conducted a Green Dialysis Survey in late 2016.
-                                The results were published recently in Nephrology, the Official Journal of the Australian and New Zealand Society of Nephrology and of the Asia Pacific Society of Nephrology.
+                <div className="card-body text-center thumbnail">
+                    <img src={plogo} alt="homeLogo" />
+
+                    <h2>How <span style={{ color: "#3C8117" }}>green</span> are we?</h2>
+                    <p className="card-text">
+                        In an effort to measure if and how well environmental sustainability has become embedded in day-to-day activities of dialysis, the Department of Health and Human Services(Victoria) conducted a Green Dialysis Survey in late 2016.
+                        The results were published recently in Nephrology, the Official Journal of the Australian and New Zealand Society of Nephrology and of the Asia Pacific Society of Nephrology.
                             </p>
 
-                            <p className="card-text">
-                                The primary message of details from the survey is that while many dialysis services have already introduced some (or several) of the principles suggested in this website, many perhaps 89 per cent of the units-have not proceeded with specific  green projects that can help us reduce the mountains and rivers of waste we currently generate.
+                    <p className="card-text">
+                        The primary message of details from the survey is that while many dialysis services have already introduced some (or several) of the principles suggested in this website, many perhaps 89 per cent of the units-have not proceeded with specific  green projects that can help us reduce the mountains and rivers of waste we currently generate.
                             </p>
-                        </div>
-                    </div>
                 </div>
             </div>
-            <div className="midlayer py-5 mid-grid">
-                <div className="card-deck">
-                    <div className="card card-columns">
-                        <div className="card-body text-center thumbnail">
-                            <img src={rlogo} alt="HomeLogo2" />
 
-                            <h2>How to get started?</h2>
-                            <p className="card-text">
-                                In an effort to measure if and how well environmental sustainability has become embedded in day-to-day activities of dialysis, the Department of Health and Human Services(Victoria) conducted a Green Dialysis Survey in late 2016.
-                                The results were published recently in Nephrology, the Official Journal of the Australian and New Zealand Society of Nephrology and of the Asia Pacific Society of Nephrology.
+            <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#F8F8F8" }}>
+
+                <div className="card-body text-center thumbnail" style={{ backgroundColor: "#F8F8F8" }}>
+                    <img src={rlogo} alt="HomeLogo2" />
+
+                    <h2>How to get started?</h2>
+                    <p className="card-text">
+                        In an effort to measure if and how well environmental sustainability has become embedded in day-to-day activities of dialysis, the Department of Health and Human Services(Victoria) conducted a Green Dialysis Survey in late 2016.
+                        The results were published recently in Nephrology, the Official Journal of the Australian and New Zealand Society of Nephrology and of the Asia Pacific Society of Nephrology.
                             </p>
 
-                            <p className="card-text">
-                                The primary message of details from the survey is that while many dialysis services have already introduced some (or several) of the principles suggested in this website, many perhaps 89 per cent of the units-have not proceeded with specific  green projects that can help us reduce the mountains and rivers of waste we currently generate.
+                    <p className="card-text">
+                        The primary message of details from the survey is that while many dialysis services have already introduced some (or several) of the principles suggested in this website, many perhaps 89 per cent of the units-have not proceeded with specific  green projects that can help us reduce the mountains and rivers of waste we currently generate.
                             </p>
-                        </div>
-                    </div>
                 </div>
             </div>
+
 
 
         </div>

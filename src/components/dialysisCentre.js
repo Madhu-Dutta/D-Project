@@ -36,7 +36,7 @@ const DialysisCentre = (props) => {
                 </div>
             </div>
 
-            <div className="midlayer py-5 mid-grid">
+            <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#F8F8F8" }}>
                 <div className="midtext">The In-Centre HD resource conservation and management measures described in this section offers specific green projects that can help us
                      reduce the mountains and rivers of waste we currently generate.
                 </div>
@@ -44,38 +44,40 @@ const DialysisCentre = (props) => {
 
             <div className="midlayer mid-grid">
 
-            <div className="row">
-                <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
-                    <img src={logo1} alt="Building" />
-                   
-                </div>
-                <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
-                    <img src={logo2} alt="Transport" />
-                   
-                </div>
-                <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
-                    <img src={logo3} alt="Disaster" />
-                    
+                <div className="row">
+                    <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
+                        <img src={logo1} alt="Building" />
+
+                    </div>
+                    <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
+                        <img src={logo2} alt="Transport" />
+
+                    </div>
+                    <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
+                        <img src={logo3} alt="Disaster" />
+
+                    </div>
                 </div>
             </div>
 
-            <div className="row">
-                <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
-                    <img src={logo4} alt="Energy" />
-                    
+            <div className="midlayer mid-grid" style={{ backgroundColor: "#F8F8F8" }}>
+                <div className="row" style={{ backgroundColor: "#F8F8F8" }}>
+                    <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
+                        <img src={logo4} alt="Energy" />
+
+                    </div>
+                    <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
+                        <img src={logo5} alt="Waste" />
+
+                    </div>
+                    <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
+                        <img src={logo6} alt="Water" />
+
+                    </div>
                 </div>
-                <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
-                    <img src={logo5} alt="Waste" />
-                   
-                </div>
-                <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
-                    <img src={logo6} alt="Water" />
-                   
-                </div>
+
+
             </div>
-
-
-        </div>
 
 
         </div>

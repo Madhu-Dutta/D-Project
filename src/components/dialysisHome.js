@@ -37,22 +37,33 @@ const DialysisHome = (props) => {
                 </div>
             </div>
 
-            <div className="midlayer py-5 mid-grid">
-                <div className="card-deck">
-                    <div className="card card-columns">
-                        <div className="card-body text-center thumbnail">
-                            <div className="row">
-                                <div className="col-lg-6 thumbnail lists w-100" style={{ padding: "3%" }}>
-                                    <div>Hi</div>
-                                </div>
-                                <div className="col-lg-6 thumbnail lists w-100 thumbnail" style={{ padding: "3%" }}>
-                                    <div><img className="w-100" src={map} alt="AtHomeDialysis" style={{ float: "right" }} /></div>
-                                </div>
-                            </div>
+            <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#F8F8F8" }}>
+
+                <div className="row" style={{ backgroundColor: "#F8F8F8" }}>
+                    <div className="col-lg-6 thumbnail w-100">
+                        <h2>Power and water bill rebate options.</h2>
+                        <div className="calculate-wrapper">
+                            <p>Dialysis is a resource-hungry medical therapy in
+                            particular, mountains of plastic waste , lakes of water and
+                        Magawatts of wasted energy are central to its delivery.</p>
+
+                            <p>The hunger applies whether Dialysis is delivered in-
+                            centre(65% of all Australian/NewZealand(ANZ)
+                        dialysis), or in home( 35% of all ANZ dialysis). </p>
+
+                            <p>The hunger applies whether Dialysis is delivered in-
+                                centre(65% of all Australian/NewZealand(ANZ)
+                        dialysis), or in home( 35% of all ANZ dialysis). </p>
+                            <button className="calculationBtn">Find out how to calculate your solar calculation at home.</button>
                         </div>
+                    </div>
+                    <div className="col-lg-6 w-100 map thumbnail">
+                        <div><img className="w-100" src={map} alt="AtHomeDialysis" style={{ float: "right" }} /></div>
                     </div>
                 </div>
             </div>
+
+
 
             <div className="midlayer mid-grid">
 
@@ -70,8 +81,11 @@ const DialysisHome = (props) => {
 
                     </div>
                 </div>
+            </div>
 
-                <div className="row">
+            <div className="midlayer mid-grid" style={{ backgroundColor: "#F8F8F8" }}>
+
+                <div className="row" style={{ backgroundColor: "#F8F8F8" }}>
                     <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
                         <img src={logo4} alt="Energy" />
 
@@ -89,7 +103,7 @@ const DialysisHome = (props) => {
 
             </div>
 
-        </div>
+        </div >
 
     )
 

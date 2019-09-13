@@ -1,5 +1,5 @@
 import React from "react";
-import '../style/baseComponent.css';
+import '../style/aboutus.css';
 import image from '../style/images/about.JPG';
 import logo1 from '../style/images/mailLogo.JPG';
 import logo2 from '../style/images/aboutPlantLogo.JPG';
@@ -42,69 +42,64 @@ const Aboutus = (props) => {
             </div>
 
             <div className="midlayer py-5 mid-grid">
-                <div className="card-deck">
-                    <div className="card card-columns">
-                        <div className="card-body text-center thumbnail">
-                            <img src={logo1} alt="About" />
 
-                            <h2>What do we deliver?</h2>
-                            <p className="card-text">
-                                International experience has already demonstrated broad benefits of environmental initiatives within the nephrology sector.
+                <div className="card-body text-center thumbnail">
+                    <img src={logo1} alt="About" />
+
+                    <h2>What do we deliver?</h2>
+                    <p className="card-text">
+                        International experience has already demonstrated broad benefits of environmental initiatives within the nephrology sector.
                             </p>
 
-                            <p className="card-text">
-                                In the UK, the Green Nephrology (GN) Network was established (2009) by the National Health Service Sustainable Healthcare Programme. It has led to both attitudinal and practice change.
+                    <p className="card-text">
+                        In the UK, the Green Nephrology (GN) Network was established (2009) by the National Health Service Sustainable Healthcare Programme. It has led to both attitudinal and practice change.
                             </p>
-                        </div>
-                        <div className="row lists">
-                            <div className="col-lg-6 thumbnail lists" style={{ padding: "3%" }}>
-                                <ul>
-                                    <h6>The GN Network</h6>
-                                    <li>470 milion litres of water</li>
-                                    <li>470 milion litres of water</li>
-                                    <li>470 milion litres of water</li>
-                                    <li>470 milion litres of water</li>
+                </div>
+                <div className="row lists">
+                    <div className="col-lg-6 thumbnail lists" style={{ padding: "3%" }}>
+                        <ul>
+                            <h6>The GN Network</h6>
+                            <li>470 milion litres of water</li>
+                            <li>470 milion litres of water</li>
+                            <li>470 milion litres of water</li>
+                            <li>470 milion litres of water</li>
 
-                                </ul>
-                            </div>
-                            <div className="col-lg-6 thumbnail lists" style={{ padding: "3%" }}>
-                                <ul>
-                                    <h6>The GN Network</h6>
-                                    <li>470 milion litres of water</li>
-                                    <li>470 milion litres of water</li>
-                                    <li>470 milion litres of water</li>
-                                    <li>470 milion litres of water</li>
-
-                                </ul>
-                            </div>
-                        </div>
-
+                        </ul>
                     </div>
+                    <div className="col-lg-6 thumbnail lists" style={{ padding: "3%" }}>
+                        <ul>
+                            <h6>The GN Network</h6>
+                            <li>470 milion litres of water</li>
+                            <li>470 milion litres of water</li>
+                            <li>470 milion litres of water</li>
+                            <li>470 milion litres of water</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#F8F8F8" }}>
+                <div className="card-body text-center thumbnail" style={{ backgroundColor: "#F8F8F8" }}>
+                    <img src={logo2} alt="About" />
+
+                    <h2>Our History.</h2>
+                    <p className="card-text">
+                        The site originally arose from the 'green experience' of the renal service
+                            </p>
+
+                    <p className="card-text">
+                        GNAT is indebted to Professor John Agar and Barwon Health Renal Services, Geelong, Australia.
+                            </p>
+
+                    <p className="card-text">
+                        In addition and in turn, the Barwon Health team express their gratitude to Fresenius Mediacal Care (Australia) for providing initial sponsership seed funding that permitted the first iteriation of this website to be built in 2004.
+                            </p>
                 </div>
             </div>
 
-            <div className="midlayer py-5 mid-grid">
-                <div className="card-deck">
-                    <div className="card card-columns">
-                        <div className="card-body text-center thumbnail">
-                            <img src={logo2} alt="About" />
-
-                            <h2>Our History.</h2>
-                            <p className="card-text">
-                                The site originally arose from the 'green experience' of the renal service
-                            </p>
-
-                            <p className="card-text">
-                                GNAT is indebted to Professor John Agar and Barwon Health Renal Services, Geelong, Australia.
-                            </p>
-
-                            <p className="card-text">
-                                In addition and in turn, the Barwon Health team express their gratitude to Fresenius Mediacal Care (Australia) for providing initial sponsership seed funding that permitted the first iteriation of this website to be built in 2004.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
 
             <div className="midlayer mid-grid">
