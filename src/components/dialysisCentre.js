@@ -75,8 +75,6 @@ const DialysisCentre = (props) => {
 
                     </div>
                 </div>
-
-
             </div>
 
 
