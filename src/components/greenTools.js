@@ -84,14 +84,14 @@ const GreenTools = (props) => {
                         In addition and in turn, the Barwon Health team express their gratitude to Fresenius Mediacal Care (Australia) for providing initial sponsership seed funding that permitted the first iteriation of this website to be built in 2004.
 
                         <div className="row text-center">
-                            <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
-                                <img src={logo8} alt="climate neutality" />
+                            <div className="col-lg-4 thumbnail">
+                                <img src={logo8} alt="climate neutality" style={{ width: "80%", paddingTop: "8%" }} />
                             </div>
-                            <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
-                                <img src={logo10} alt="climate neutality" />
+                            <div className="col-lg-4 thumbnail">
+                                <img src={logo10} alt="climate neutality" style={{ paddingTop: "8%" }} />
                             </div>
-                            <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
-                                <img src={logo9} alt="climate neutality" />
+                            <div className="col-lg-4 thumbnail">
+                                <img src={logo9} alt="climate neutality" style={{ width: "99%", paddingTop: "8%" }} />
                             </div>
                         </div>
                     </p>
