@@ -30,8 +30,78 @@ const GreenroadMap = (props) => {
                 </div>
             </div>
 
-        </div>
+            <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#EFEFEF" }}>
 
+                <div className="row">
+                    <div className="col-lg-6">
+                        <h4>Preparation.</h4>
+                        <div className="row">
+                            <div className="col-lg-6">
+                                <ul className="prep">
+                                    <li>Going green needs commitment, focus and leadership.</li>
+                                    <li>Seek and appoint an eco-leader.</li>
+                                </ul>
+                            </div>
+                            <div className="col-lg-6">
+                                <ul className="prep">
+                                    <li>Going green needs commitment, focus and leadership.</li>
+                                    <li>Seek and appoint an eco-leader.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-6">
+                        <h4 className="textTitle">Grow the notion of <span>green.</span></h4>
+                        <p className="growGreen-text">
+                            The best possible way of growing green is to involve the staff, to "make
+                            green good", and provide access to resources and encouragement.
+                        </p>
+                        <p className="growGreen-text">
+                            The best possible way of growing green is to involve the staff, to "make
+                            green good", and provide access to resources and encouragement.
+                        </p>
+                        <p className="growGreen-text">
+                            The best possible way of growing green is to involve the staff, to "make
+                            green good", and provide access to resources and encouragement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="midlayer mid-grid" style={{ backgroundColor: "#F8F8F8" }}>
+
+                <div className="row">
+
+                    <div className="col-lg-6">
+                        <h4>Implementations.</h4>
+                        <p>Don't try to do too much, too soon.</p>
+                        <hr></hr>
+
+                        <div>
+                            <ul>
+                                <li>Going green needs commitment, focus and leadership.</li>
+                                <li>Seek and appoint an eco-leader.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-6">
+                        <h4>Evaluations.</h4>
+                        <p>Always, always evaluate.</p>
+
+                        <hr></hr>
+                        <div>
+                            <ul>
+                                <li>Going green needs commitment, focus and leadership.</li>
+                                <li>Seek and appoint an eco-leader.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
     )
 }
 export default GreenroadMap;

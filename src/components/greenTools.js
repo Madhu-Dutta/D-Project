@@ -105,9 +105,8 @@ const GreenTools = (props) => {
                 <h4>Spread the word.</h4>
                 <span>Hold your own sustainability conference with our guide to it being a complete success. </span>
                 <div><img src={logo7} alt="link to conference page" /></div>
+
             </div>
-
-
         </div>
 
     )
