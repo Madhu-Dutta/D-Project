@@ -109,25 +109,25 @@ const Aboutus = (props) => {
                 <div className="row">
                     <div className="col-lg-3 thumbnail" style={{ padding: "3%" }}>
                         <img src={team1} alt="About" />
-                        <h6>Prof. John Agar</h6>
+                        <h5>Prof. John Agar</h5>
                         <span>Nephrologist</span><br />
                         <span>Barwon Health</span>
                     </div>
                     <div className="col-lg-3 thumbnail" style={{ padding: "3%" }}>
                         <img src={team2} alt="About" />
-                        <h6>Prof. John Knight</h6>
+                        <h5>Prof. John Knight</h5>
                         <span>Nephrologist</span><br />
                         <span>George Institute</span>
                     </div>
                     <div className="col-lg-3 thumbnail" style={{ padding: "3%" }}>
                         <img src={team3} alt="About" />
-                        <h6>Prof. Mathew Sypek</h6>
+                        <h5>Prof. Mathew Sypek</h5>
                         <span>Nephrologist</span><br />
                         <span>Royal Melbourne</span>
                     </div>
                     <div className="col-lg-3 thumbnail" style={{ padding: "3%" }}>
                         <img src={team4} alt="About" />
-                        <h6>Prof. Leila Arnold</h6>
+                        <h5>Prof. Leila Arnold</h5>
                         <span>Nephrologist</span><br />
                         <span>Wellington Hospital</span>
                     </div>
@@ -137,25 +137,25 @@ const Aboutus = (props) => {
                 <div className="row">
                     <div className="col-lg-3 thumbnail" style={{ padding: "3%" }}>
                         <img src={team5} alt="About" />
-                        <h6>Ms Anthea White</h6>
+                        <h5>Ms Anthea White</h5>
                         <span>Satellite Dialysis Manager</span><br />
                         <span>Coburg Dialysis</span>
                     </div>
                     <div className="col-lg-3 thumbnail" style={{ padding: "3%" }}>
                         <img src={team6} alt="About" />
-                        <h6>Dr Shlipa Jesudason</h6>
+                        <h5>Dr Shlipa Jesudason</h5>
                         <span>Mediacal Director</span><br />
                         <span>Kidney Health AUS</span>
                     </div>
                     <div className="col-lg-3 thumbnail" style={{ padding: "3%" }}>
                         <img src={team7} alt="About" />
-                        <h6>Dr. Marie Ludlow</h6>
+                        <h5>Dr. Marie Ludlow</h5>
                         <span>Nephrologist</span><br />
                         <span>Kidney Health AUS</span>
                     </div>
                     <div className="col-lg-3 thumbnail" style={{ padding: "3%" }}>
                         <img src={team8} alt="About" />
-                        <h6>Mr Greg Collette</h6>
+                        <h5>Mr Greg Collette</h5>
                         <span>Haemodialysis Patient</span><br />
                         <span>KHA Consumer Council</span>
                     </div>

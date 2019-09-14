@@ -149,7 +149,7 @@ class Conference extends React.Component {
                     <div><img src={logo9} alt="Question Mark" /></div>
                     <h4>Did you know?</h4>
 
-                    <div><img src={logo10} alt="Cattle" /></div>
+                    <img className="w-100" src={logo10} alt="Cattle" />
                     <div className="texts">
                         <p className="card-cattle">
                             Climate change and its implications are increasingly moving people and organizations to make voluntary
@@ -168,7 +168,7 @@ class Conference extends React.Component {
 
                 <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#FFFFFF" }}>
 
-                    <div><img src={logo11} alt="Cattle" /></div>
+                    <img className="w-100" src={logo11} alt="Cattle" />
                     <div className="texts">
                         <p className="card-cattle">
                             Climate change and its implications are increasingly moving people and organizations to make voluntary
