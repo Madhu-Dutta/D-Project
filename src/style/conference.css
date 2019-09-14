@@ -1,0 +1,17 @@
+h1 {
+    margin-top: 5%;  
+    text-shadow: 3px 1px 0px #1A401A;
+  }
+.downloadChecklist{
+    float: right;
+    padding: 1.4%;
+}
+.card-text{
+    text-align: left;
+}
+.card-cattle{
+    text-align: center;
+    padding-left: 26%;
+    padding-right: 26%;
+    padding-top: 2%;
+}

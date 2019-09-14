@@ -1,7 +1,9 @@
 import React from "react";
-import '../style/dialysisCentre.css';
+import '../style/building.css';
 import image from '../style/images/buildingDesign.JPG';
-
+import logo1 from '../style/images/toolsLogo.JPG';
+import logo2 from '../style/images/eqoDesign1.JPG';
+import logo3 from '../style/images/eqoDesign2.JPG';
 
 class BuildingDesign extends React.Component {
 
@@ -29,6 +31,56 @@ class BuildingDesign extends React.Component {
 
                         <div className="col-md-6">
                             <img className="w-100" src={image} alt="Building Design" style={{ float: "right", width: "100%", height: "100%" }} />
+                        </div>
+                    </div>
+                </div>
+
+                <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#EFEFEF" }}>
+
+                    <div><img src={logo1} alt="The Design Elements Logo" /></div>
+                    <h2>The Design Elements.</h2>
+
+                    <div className="texts">
+                        <p className="card-text" style={{ fontStyle: "italic" }}> While the ability to reduce transport-related emmisions depends on
+                            geographical location, dialysis centre management should consider.
+                        </p>
+                        <p className="card-text">
+                            Climate change and its implications are increasingly moving people and organizations to make voluntary
+                            commitments and take action to reduce GHG emissions, and even go beyond , to achieve carbon neutrality.
+                            </p>
+
+                    </div>
+                </div>
+
+                <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#EFEFEF" }}>
+                    <h4>Sustainable dialysis building design should include:</h4>
+
+                    <div className="row texts">
+                        <div className="col-lg-6">
+                            <ul className="card-text">
+                                <li>Going green needs commitment, focus and leadership.</li>
+                                <li>Seek and appoint an eco-leader.</li>
+                            </ul>
+                        </div>
+                        <div className="col-lg-6">
+                            <ul className="card-text">
+                                <li>Going green needs commitment, focus and leadership.</li>
+                                <li>Seek and appoint an eco-leader.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#FFFFFF" }}>
+                    <div className="row">
+                        <div className="col-lg-6 thumbnail" style={{ padding: "3%" }}>
+                            <img src={logo2} alt="Eqo Friendly Design 1" />
+
+                        </div>
+                        <div className="col-lg-6 thumbnail" style={{ padding: "3%" }}>
+                            <img src={logo3} alt="Eqo Friendly Design 1" />
+
                         </div>
                     </div>
                 </div>

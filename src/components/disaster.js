@@ -1,7 +1,7 @@
 import React from "react";
-import '../style/dialysisCentre.css';
+import '../style/disaster.css';
 import image from '../style/images/disaster.JPG';
-
+import logo1 from '../style/images/cloudRain.JPG';
 
 class Disaster extends React.Component {
 
@@ -14,7 +14,7 @@ class Disaster extends React.Component {
                 <div id="header" className="card" >
                     <div className="row no-gutters">
                         <div className="col-md-6" style={{ backgroundColor: "#265725" }}>
-                            <h1 className="centreTitle">Disaster.</h1>
+                            <h1 className="centreTitle">Disaster Planning.</h1>
                             <div id="wrapper" className='w-100'>
 
                                 <p>Dialysis is a resource-hungry medical therapy in
@@ -32,6 +32,28 @@ class Disaster extends React.Component {
                         </div>
                     </div>
                 </div>
+
+                <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#EFEFEF" }}>
+
+                    <div><img src={logo1} alt="Cloud and Rain Logo" /></div>
+                    <h2>Dialysis and natural disasters.</h2>
+
+                    <div className="texts">
+                        <p className="card-text">
+                            Climate change and its implications are increasingly moving people and organizations to make voluntary
+                            commitments and take action to reduce GHG emissions, and even go beyond , to achieve carbon neutrality.
+                            </p>
+                        <p className="card-text">
+                            Climate change and its implications are increasingly moving people and organizations to make voluntary
+                            commitments and take action to reduce GHG emissions, and even go beyond , to achieve carbon neutrality.
+                            </p>
+                        <p className="card-text">
+                            Climate change and its implications are increasingly moving people and organizations to make voluntary
+                            commitments and take action to reduce GHG emissions, and even go beyond , to achieve carbon neutrality.
+                            </p>
+                    </div>
+                </div>
+
 
             </div>
 
