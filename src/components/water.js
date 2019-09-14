@@ -1,10 +1,13 @@
 import React from "react";
-import '../style/tools.css';
+import '../style/water.css';
 import image from '../style/images/greenTools.JPG';
 import logo1 from '../style/images/footLogo.JPG';
 import logo2 from '../style/images/solarLogo.JPG';
 import logo3 from '../style/images/recwaterLogo.JPG';
-
+import logo4 from '../style/images/calculatorLogo.JPG';
+import logo5 from '../style/images/In-centreSolarCalc.JPG';
+import logo6 from '../style/images/chemicalList.JPG';
+import logo7 from '../style/images/reservoir.JPG';
 
 class Water extends React.Component {
 
@@ -68,6 +71,83 @@ class Water extends React.Component {
                         </div>
                     </div>
                 </div>
+
+                <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#EFEFEF" }}>
+
+                    <div><img src={logo4} alt="Reject Water Lost to Drainage Calculator" /></div>
+                    <h2>Reject Water Lost to Drainage Calculator</h2>
+
+                    <div className="texts">
+                        <p className="card-text"> While the ability to reduce transport-related emmisions depends on
+                            geographical location, dialysis centre management should consider.
+                        </p>
+                        <p className="card-text">
+                            Climate change and its implications are increasingly moving people and organizations to make voluntary
+                            commitments and take action to reduce GHG emissions, and even go beyond , to achieve carbon neutrality.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#FFFFFF" }}>
+
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <h3>In-Centre Unit RO RW Loss</h3>
+                            <ul className="card-text texts">
+                                <li>Going green needs commitment, focus and leadership.</li>
+                                <li>Seek and appoint an eco-leader.</li>
+                                <li>Going green needs commitment, focus and leadership.</li>
+                                <li>Seek and appoint an eco-leader.</li>
+                            </ul>
+                        </div>
+                        <div className="col-lg-6">
+                            <h3>Home HD RO RW Loss</h3>
+                            <ul className="card-text texts">
+                                <li>Going green needs commitment, focus and leadership.</li>
+                                <li>Seek and appoint an eco-leader.</li>
+                                <li>Going green needs commitment, focus and leadership.</li>
+                                <li>Seek and appoint an eco-leader.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#EFEFEF" }}>
+                    <img src={logo5} alt="Chemical Anaysis" />
+                    <h2>Chemical Analysis.</h2>
+                    <div>
+                        <img src={logo6} alt="Chemical Anaysis" />
+                    </div>
+                    <div className="chemical-text">
+                        <p className="card-text ">
+                            Climate change and its implications are increasingly moving people and organizations to make voluntary
+                            commitments and take action to reduce GHG emissions, and even go beyond , to achieve carbon neutrality.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#FFFFFF" }}>
+                    <h3>System Cost Analysis</h3>
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <p className="card-text" >Dialysis is a resource-hungry medical therapy in
+                                    particular, mountains of plastic waste , lakes of water and
+                        Magawatts of wasted energy are central to its delivery.</p>
+                            <h6>Reject Water Capture and Reuse System</h6>
+                            <p className="card-text" >Dialysis is a resource-hungry medical therapy in
+                                particular, mountains of plastic waste , lakes of water and
+                        Magawatts of wasted energy are central to its delivery.</p>
+                            <p className="card-text" >Dialysis is a resource-hungry medical therapy in
+                                    particular, mountains of plastic waste , lakes of water and
+                        Magawatts of wasted energy are central to its delivery.</p>
+                        </div>
+                        <div className="col-lg-6">
+                            <img src={logo7} alt="Reservoir" />
+                        </div>
+                    </div>
+                </div>
+
 
 
             </div>

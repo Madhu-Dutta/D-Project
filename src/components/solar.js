@@ -4,7 +4,8 @@ import image from '../style/images/greenTools.JPG';
 import logo1 from '../style/images/footLogo.JPG';
 import logo2 from '../style/images/solarLogo.JPG';
 import logo3 from '../style/images/recwaterLogo.JPG';
-
+import logo4 from '../style/images/HDsolarCalc.JPG';
+import logo5 from '../style/images/In-centreSolarCalc.JPG';
 
 class Solar extends React.Component {
 
@@ -69,6 +70,39 @@ class Solar extends React.Component {
                     </div>
                 </div>
 
+                <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#EFEFEF" }}>
+
+                    <div><img src={logo4} alt="Home HD Solar Calculator" /></div>
+                    <h2>Home HD Solar Calculator</h2>
+
+                    <div className="texts">
+                        <p className="card-text"> While the ability to reduce transport-related emmisions depends on
+                            geographical location, dialysis centre management should consider.
+                        </p>
+                        <p className="card-text">
+                            Climate change and its implications are increasingly moving people and organizations to make voluntary
+                            commitments and take action to reduce GHG emissions, and even go beyond , to achieve carbon neutrality.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#EFEFEF" }}>
+
+                    <div><img src={logo5} alt="In-Centre HD Solar Calculator" /></div>
+                    <h2>In-Centre HD Solar Calculator.</h2>
+
+                    <div className="texts">
+                        <p className="card-text"> While the ability to reduce transport-related emmisions depends on
+                            geographical location, dialysis centre management should consider.
+                        </p>
+                        <p className="card-text">
+                            Climate change and its implications are increasingly moving people and organizations to make voluntary
+                            commitments and take action to reduce GHG emissions, and even go beyond , to achieve carbon neutrality.
+                        </p>
+
+                    </div>
+                </div>
 
 
             </div>

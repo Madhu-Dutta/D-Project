@@ -52,10 +52,10 @@ class BuildingDesign extends React.Component {
                     </div>
                 </div>
 
-                <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#EFEFEF" }}>
+                <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#FFFFFF" }}>
                     <h4>Sustainable dialysis building design should include:</h4>
 
-                    <div className="row texts">
+                    <div className="row">
                         <div className="col-lg-6">
                             <ul className="card-text">
                                 <li>Going green needs commitment, focus and leadership.</li>
@@ -71,16 +71,20 @@ class BuildingDesign extends React.Component {
                     </div>
                 </div>
 
-
                 <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#FFFFFF" }}>
+                    <h4 className="machineDiagrams">Our eco-friendly dialysis machine diagrams.</h4>
+
                     <div className="row">
-                        <div className="col-lg-6 thumbnail" style={{ padding: "3%" }}>
-                            <img src={logo2} alt="Eqo Friendly Design 1" />
-
+                        <div className="col-lg-6">
+                            <div className="card-text">
+                            <img className="w-100" src={logo2} alt="Building Design1"  />
+                            </div>
                         </div>
-                        <div className="col-lg-6 thumbnail" style={{ padding: "3%" }}>
-                            <img src={logo3} alt="Eqo Friendly Design 1" />
-
+                        <div className="col-lg-6">
+                            <div className="card-text">
+                            <img className="w-100" src={logo3} alt="Building Design2"  />
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
