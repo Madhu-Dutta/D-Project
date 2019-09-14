@@ -13,3 +13,7 @@ li{
 h6{
     text-align: left;
 }
+.text-center{
+    text-align: center;
+    padding-bottom: 2%;
+}

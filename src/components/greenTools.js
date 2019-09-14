@@ -25,7 +25,7 @@ class GreenTools extends React.Component {
         e.preventDefault();
         window.location = "/water";
     }
-    getConference = (e) =>{
+    getConference = (e) => {
         e.preventDefault();
         window.location = "/conference";
     }
@@ -126,6 +126,8 @@ class GreenTools extends React.Component {
                     <div><img src={logo7} onClick={this.getConference} alt="link to conference page" /></div>
 
                 </div>
+
+
             </div>
 
         )

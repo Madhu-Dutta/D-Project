@@ -1,5 +1,6 @@
 import React from "react";
 import '../style/water.css';
+import { Button } from 'reactstrap';
 import image from '../style/images/greenTools.JPG';
 import logo1 from '../style/images/footLogo.JPG';
 import logo2 from '../style/images/solarLogo.JPG';
@@ -147,9 +148,9 @@ class Water extends React.Component {
                         </div>
                     </div>
                 </div>
-
-
-
+                <div className="text-center">
+                    <Button color="success">Find out more about implementing this in your home</Button>
+                </div>
             </div>
         );
     }
