@@ -8,7 +8,19 @@ import logo4 from '../style/images/bulbLogo.JPG';
 import logo5 from '../style/images/wasteLogo.JPG';
 import logo6 from '../style/images/waterLogo.JPG';
 
-const DialysisCentre = (props) => {
+class DialysisCentre extends React.Component {
+
+    getBuilding = () => {
+        window.location = "/buildingDesign";
+    }
+    getTransport = () => {
+        window.location = "/transport";
+    }
+    getDisaster = () => {
+        window.location = "/disaster";
+    }
+
+    render(){
 
     return (
 
@@ -46,15 +58,15 @@ const DialysisCentre = (props) => {
 
                 <div className="row">
                     <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
-                        <img src={logo1} alt="Building" />
+                        <img src={logo1} onClick={this.getBuilding} alt="Building" />
 
                     </div>
                     <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
-                        <img src={logo2} alt="Transport" />
+                        <img src={logo2} onClick={this.getTransport} alt="Transport" />
 
                     </div>
                     <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
-                        <img src={logo3} alt="Disaster" />
+                        <img src={logo3} onClick={this.getDisaster} alt="Disaster" />
 
                     </div>
                 </div>
@@ -83,6 +95,7 @@ const DialysisCentre = (props) => {
 
 
     )
+}
 }
 
 export default DialysisCentre;

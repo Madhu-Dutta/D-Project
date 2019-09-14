@@ -98,7 +98,7 @@ const ResourcesResearch = (props) => {
                 </div>
             </div>
 
-            <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#F8F8F8" }}>
+            <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#FFFFFF" }}>
 
                 <div><img src={logo10} alt="news" /></div>
                 <h2>News</h2>

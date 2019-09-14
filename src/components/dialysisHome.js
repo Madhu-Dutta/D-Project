@@ -9,8 +9,19 @@ import logo5 from '../style/images/wasteLogo.JPG';
 import logo6 from '../style/images/waterLogo.JPG';
 import map from '../style/images/homeMap.JPG'
 
-const DialysisHome = (props) => {
+class DialysisHome extends React.Component{
 
+    getBuilding = () => {
+        window.location = "/buildingDesign";
+    }
+    getTransport = () => {
+        window.location = "/transport";
+    }
+    getDisaster = () => {
+        window.location = "/disaster";
+    }
+
+    render(){
     return (
 
         <div className="container-wrapper">
@@ -69,15 +80,15 @@ const DialysisHome = (props) => {
 
                 <div className="row">
                     <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
-                        <img src={logo1} alt="Building" />
+                        <img src={logo1} onClick={this.getBuilding} alt="Building" />
 
                     </div>
                     <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
-                        <img src={logo2} alt="Transport" />
+                        <img src={logo2} onClick={this.getTransport} alt="Transport" />
 
                     </div>
                     <div className="col-lg-4 thumbnail" style={{ padding: "3%" }}>
-                        <img src={logo3} alt="Disaster" />
+                        <img src={logo3} onClick={this.getDisaster} alt="Disaster" />
 
                     </div>
                 </div>
@@ -106,6 +117,7 @@ const DialysisHome = (props) => {
         </div >
 
     )
+    }
 
 }
 export default DialysisHome;
