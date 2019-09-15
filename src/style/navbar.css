@@ -9,6 +9,10 @@
 .navbar-collapse{
     justify-content: flex-end;
 }
-.nav-link:{
+/* .nav-link:{
+    padding-right: 50%;
     padding-left: 16%;
+} */
+.nav-item{
+    padding: 0%;
 }

@@ -33,6 +33,7 @@ export default class Example extends React.Component {
   }
   render() {
     return (
+      // <div>
 
       <Navbar color="light" light expand="lg">
 
@@ -104,7 +105,7 @@ export default class Example extends React.Component {
           </Nav>
         </Collapse>
       </Navbar>
-
+      // </div>
     );
   }
 }

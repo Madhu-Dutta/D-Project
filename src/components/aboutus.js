@@ -83,7 +83,7 @@ const Aboutus = (props) => {
 
             <div className="midlayer py-5 mid-grid" style={{ backgroundColor: "#F8F8F8" }}>
                 <div className="card-body text-center thumbnail" style={{ backgroundColor: "#F8F8F8" }}>
-                    <img src={logo2} alt="About" />
+                    <img src={logo2} alt="History" />
 
                     <h2>Our History.</h2>
                     <p className="card-text">

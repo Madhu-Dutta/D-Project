@@ -24,6 +24,7 @@ import Conference from "./components/conference";
 import GreenroadMap from "./components/greenroadMap";
 
 import ResourcesResearch from "./components/resourcesResearch";
+import Survey from "./components/survey";
 import ResourcesBlog from "./components/resourcesBlog";
 
 import Contact from "./components/contact";
@@ -57,6 +58,7 @@ function App() {
         <Route path="/greenroadMap" exact component={GreenroadMap} />
 
         <Route path="/resourcesResearch" exact component={ResourcesResearch} />
+        <Route path="/survey" exact component={Survey} />
         <Route path="/resourcesBlog" exact component={ResourcesBlog} />
 
         <Route path="/contact" exact component={Contact} />
